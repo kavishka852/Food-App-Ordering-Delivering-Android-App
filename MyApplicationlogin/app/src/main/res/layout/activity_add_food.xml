@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AddFoodActivity">
+
+
+    <Button
+        android:id="@+id/pickImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/foodDescriptionEditText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="221dp"
+        android:layout_marginEnd="230dp"
+        android:text="Pick Image" />
+
+    <Button
+        android:id="@+id/captureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Capture Food Image" />
+
+
+    <EditText
+        android:id="@+id/foodNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/captureButton"
+        android:layout_marginTop="53dp"
+        android:hint="Food Name"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <EditText
+        android:id="@+id/foodPriceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/foodNameEditText"
+        android:layout_marginTop="31dp"
+        android:hint="Price"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <EditText
+        android:id="@+id/foodDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_below="@+id/foodPriceEditText"
+        android:layout_marginTop="30dp"
+        android:hint="Description"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <Button
+        android:id="@+id/showButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/foodDescriptionEditText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="249dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="10dp"
+        android:text="Show Food" />
+
+    <Button
+        android:id="@+id/addButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/foodDescriptionEditText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="246dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="13dp"
+        android:text="Add Food Item" />
+
+    <Button
+        android:id="@+id/deleteButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/foodDescriptionEditText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="251dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="8dp"
+        android:text="Delete Food" />
+
+    <Button
+        android:id="@+id/updateButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/foodDescriptionEditText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="158dp"
+        android:layout_marginEnd="11dp"
+        android:text="Update Food" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="230dp"
+        android:layout_height="174dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="350dp"
+         />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+    android:id="@+id/bottom_navigator"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginTop="520dp"
+    android:layout_marginBottom="2dp"
+    app:itemIconTint="@color/bottomcolour"
+    app:itemTextColor="@color/bottomcolour"
+    app:menu="@menu/menu" />
+
+</RelativeLayout>
+
+

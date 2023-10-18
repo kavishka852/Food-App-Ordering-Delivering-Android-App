@@ -1,8 +1,8 @@
 <h1>Food Ordering and Delivery App</h1>
-Description
+<h2>Description</h2>
 This Android application, "Fooad," is designed for ordering and delivering food using an SQLite database. The app serves three main user roles: Admin, Customer, and Driver. Each user has specific features and functionalities tailored to their role.
 
-Features
+<h2>Features</h2>
 Admin
 View available food items.
 View a list of ordered food items.

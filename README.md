@@ -7,14 +7,14 @@ This Android application, "Sandwich Palace," is designed for ordering and delive
 View available food items.
 View a list of ordered food items.
 Add new food items using the device's camera or internal storage.
-<h2>Customer</h2>h2>
+<h2>Customer</h2>
 Create a personal account for order tracking.
 Browse the available food menu.
 Place food orders.
 View the list of ordered food items.
 Update placed orders.
 Track the status and location of their orders.
-<h2>Driver</h2>h2>
+<h2>Driver</h2>
 Track the location of the customers.
 View the ordered food menu to prepare for delivery.
 Technologies Used
